@@ -17,9 +17,7 @@ This algorithm is not suitable for large data sets as its average and worst case
   Provided is an optional visualization helper. Call snapshot(yourArray) at the
   beginning of each iteration of your inner loop with the state of the being-sorted
   array and the helper tool will show you how your array looks in the HTML section
-  of CodePen. This is optional and only for your help.
-  
-  
+  of CodePen. This is optional and only for your help.  
 */
 
 var bubbleSort = nums => {
@@ -39,7 +37,6 @@ var bubbleSort = nums => {
 };
 
 // unit tests
-// do not modify the below code
 describe('bubble sort', function() {
     it('should sort correctly', () => {
         var nums = [10, 5, 3, 8, 2, 6, 4, 7, 9, 1];
