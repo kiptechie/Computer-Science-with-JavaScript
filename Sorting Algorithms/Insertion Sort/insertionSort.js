@@ -29,7 +29,6 @@ var insertionSort = nums => {
 };
 
 // unit tests
-// do not modify the below code
 describe('insertion sort', function() {
     it('should sort correctly', () => {
         var nums = [10, 5, 3, 8, 2, 6, 4, 7, 9, 1];
