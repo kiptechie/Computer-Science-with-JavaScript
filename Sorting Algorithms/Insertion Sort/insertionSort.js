@@ -16,7 +16,7 @@
   And you put xdescribe instead of describe if you want to suspend running the unit tests.  
 */
 
-var insertionSort = nums => {
+var insertionSort = (nums) => {
     for (let i = 1; i < nums.length; i++) {
         for (let j = 0; j < i; j++) {
             snapshot(nums);
