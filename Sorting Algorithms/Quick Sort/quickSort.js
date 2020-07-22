@@ -8,7 +8,6 @@ Quick sort is then performed again on the left and right lists.
 */
 
 /*
-
   Quicksort!
   
   Name your function quickSort.
@@ -22,7 +21,6 @@ Quick sort is then performed again on the left and right lists.
   As always, you can change describe to xdescribe to prevent the unit tests from running while you're coding.
   
   No visualization is provided so feel free to use your own debugging methods (like console.log).
-
 */
 
 const quickSort = nums => {
