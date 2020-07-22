@@ -38,7 +38,7 @@ const mergeSort = nums => {
     const length = nums.length;
     const middle = Math.floor(length / 2);
     const left = nums.slice(0, middle);
-    const right = nums.slice(middle);
+    const right = nums.slice(middle, length);
 
     return merge(mergeSort(left), mergeSort(right));
 };
