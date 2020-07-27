@@ -7,7 +7,7 @@ Current Tree:
     /   \
   5      15
  / \     /
-3   8   12
+3   8   12 
 
 -> .add is called with 7
 -> start at root (10)
