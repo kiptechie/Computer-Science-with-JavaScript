@@ -1,4 +1,8 @@
 /*
+Hash tables are key-value stores used to implement maps or sets. 
+With hash tables, the key is used as the index for where to find the value in memory. 
+This is done by passing the key through a hashing function which converts it to an addressable space.
+
 Hash tables are extremely powerful tools in modern CS and are used extensively in things like programming languages' underpinnings, databases, caches, etc. 
 They do have some tradeoffs, namely potentially memory footprints and the need for complicated hashing but they have constant time (O(1)) lookups, deletes, and adds if you're doing a set or map.
 
