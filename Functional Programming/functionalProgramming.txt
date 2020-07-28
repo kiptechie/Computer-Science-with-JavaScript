@@ -1,0 +1,24 @@
+Functional programming is currently making a big resurgence in the front end community general consciousness. 
+Though certainly none of it was invented here, it is starting to see more wide spread adoption in the front end community.
+
+There are many, many facets to functional programs and it's a disservice to say we're going to do anything but scratch the surface of the power of functional programming. 
+Learning to functional program, whether you choose to adhere to its tenants going forward or not, will make you a much better programmer. 
+It teaches you ways to structure your code to make it maintainable, compose able, and easy to reason about.
+
+We're going to focus in on a few key concepts. 
+First would be avoiding side effects. We talked a bit about side effects earlier; we want to minimize where we affect state. 
+This makes our program easier to reason about because we can easily reason through individual parts of our code. If your code has a lot of state that gets modified everywhere then you have reason through your code over time instead of being able to take tiny snapshots of individual functions. 
+A function that modifies no state and is idempotent is called a pure function. 
+We generally want small, focused, pure functions.
+
+Second, we're going to focus on higher order function. 
+Because JavaScript has functions as first-class citizens, this makes pattern possible. 
+We can pass functions into other functions, and this pattern of composition makes for some powerful paradigms. 
+The few functions we're going to focus on are all higher order functions. 
+Pure functions are important parts of higher order functions because we're going to run this functions over and over again.
+
+Third, we're going to typically focus on transforming lists of data. 
+When you're operation exclusively on lists, it's called vector or array programming. 
+When you're doing that, you can depend on the fact that you can take the output of one function and safely put that into the next function. 
+We can chain calls together. Our code becomes expressive at this point. 
+We begin describe what we want to happen rather than imperatively telling how.
