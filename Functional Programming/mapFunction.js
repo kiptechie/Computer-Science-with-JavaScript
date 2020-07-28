@@ -62,7 +62,6 @@ const myMap = (array, fn) => {
 
 
 // unit tests
-// do not modify the below code
 describe('map tests', function() {
     it('doubleEach', () => {
         const testList = [5, 50, 500, 5000, 10, 5, 3];
